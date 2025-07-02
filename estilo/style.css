@@ -26,6 +26,25 @@ section#cel {
     width: 311px;
     height: 627px;
 }
+section#icon {
+    width: 98%;
+    box-sizing: border-box;
+    margin-right: 2px;
+    text-align: right;
+}
+section#icon img{
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+    box-sizing: border-box;
+}
+section#icon img:hover {
+    border: 2px solid white;
+    transform: translate(-3px ,-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+    transition: transform .3s;
+}
 iframe {
     border-radius: 3px;
     position: absolute;
