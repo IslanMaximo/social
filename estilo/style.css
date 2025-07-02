@@ -26,3 +26,11 @@ section#cel {
     width: 311px;
     height: 627px;
 }
+iframe {
+    border-radius: 3px;
+    position: absolute;
+    top: 80px;
+    left: 22px;
+    width: 266px;
+    height: 471px;
+}
